@@ -89,7 +89,7 @@ To facilitate running the SE-GCL model on your own dataset, we also release the 
 
 2. Extract the road segment attributes (i.e., id, length, longitude and latitude) and  prepare the data label for Road Type Classification task (See `./preprocessing/road_network_processing.py`). 
 
-3. Download the raw trajectory data of Porto at: <https://www.kaggle.com/c/pkdd-15-predict-taxi-service-trajectory-i>
+3. Download the raw trajectory data of Porto: <https://www.kaggle.com/c/pkdd-15-predict-taxi-service-trajectory-i>
 
 4. Process the raw trajectory data named `train.csv` of Porto. This step includes: data cleaning, map matching, calculation of co-occurrence matrix and road speed labels, and dataset preparation for Travel Time Estimation task (See in `./preprocessing/trajectory_processing.py`). For your convenience, we also list some commonly-used map matching algorithms:
 
