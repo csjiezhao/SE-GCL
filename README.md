@@ -84,7 +84,7 @@ To facilitate running the SE-GCL model on your own dataset, we also release the 
 
 1. Download the road network of  the target city (See `./preprocessing/road_network_download.py`). The downloaded road network of Porto can be visualized via <https://kepler.gl/>, as shown in below:
 
-   <img src="./figs/porto_map.png" alt="Road network of Porto" width="zoom:36%;" />
+   <img src="./figs/porto_map.png" alt="Road network of Porto" width="36%" />
 
 2. Extract the road segment attributes (i.e., id, length, longitude and latitude) and  prepare the data label for Road Type Classification task (See `./preprocessing/road_network_processing.py`). 
 
