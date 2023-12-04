@@ -45,7 +45,7 @@
 #### Requirements
 
 - `pip install -r requirements.txt`
-- Download the Porto dataset we processed and packaged in [Google Drive](https://drive.google.com/file/d/14yTivaV41gst0_k4ufHBHSV205tcRNqb/view?usp=drive_link), and unzip it to the empty folder `./data/Porto/`.
+- Download the Porto dataset we processed and packaged in [Google Drive](https://drive.google.com/file/d/14yTivaV41gst0_k4ufHBHSV205tcRNqb/view?usp=drive_link), then unzip it to the empty folder `./data/Porto/`.
 
 #### Self-supervised Training
 
