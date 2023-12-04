@@ -2,7 +2,7 @@
 
 :triangular_flag_on_post: This is the PyTorch implementation of our paper summited to **IEEE Conference on Data Engineering (ICDE) 2024**.
 
-<center>    <img style="zoom:55%;"     src="./figs/se-gcl.png">    <br>    <div style="color:orange; border-bottom: 1px solid #d9d9d9;    display: inline-block;    color: #999;    padding: 2px;">The framework of SE-GCL</div> </center>
+<img style="zoom:55%;"     src="./figs/se-gcl.png">
 
 ## 📚 Contents
 
