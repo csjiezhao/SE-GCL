@@ -17,14 +17,14 @@
 ## 📁 File Structure
 
 ```python
-│  config.py	# hyper-parameter setting
+│  config.py	       # hyper-parameter setting
 │  model.py		# implementation of SE-GCL
 │  requirements.txt
 │  train.py		# train the SE-GCL model 
 │
 ├─checkpoints 	# a empty folder for saving model checkpoints
-├─data/Porto	# a empty folder to place data
-├─embeddings	# a empty folder to store segment embeddings
+├─data/Porto	       # a empty folder to place data
+├─embeddings	       # a empty folder to store segment embeddings
 │
 ├─preprocessing
 │      road_network_download.py
@@ -45,7 +45,7 @@
 #### Requirements
 
 - `pip install -r requirements.txt`
-- Download the processed Porto dataset in [here](https://drive.google.com/file/d/14yTivaV41gst0_k4ufHBHSV205tcRNqb/view?usp=drive_link), and unzip it to the empty folder `./data/Porto/`.
+- Download the processed Porto dataset we packaged in [Google Drive](https://drive.google.com/file/d/14yTivaV41gst0_k4ufHBHSV205tcRNqb/view?usp=drive_link), and unzip it to the empty folder `./data/Porto/`.
 
 #### Self-supervised Training
 
@@ -79,9 +79,9 @@ python ./tasks/travel_time_estimation.py
 
 ## 🛠️ Customize Your Own Dataset
 
-To facilitate running the SE-GCL model on your own dataset, we also release the code for dataset preparation. Here, we give the following processing steps for your reference (take the Porto dataset as an example):
+To facilitate running the SE-GCL model on your own dataset, we also release the code for dataset preparation. Here, we give the following processing steps for reference (take the **Porto** dataset as an example):
 
-1. Download the road network of  the target city (See `./preprocessing/road_network_download.py`). The downloaded road network of Porto can be visualized via <https://kepler.gl/>, as shown in below:
+1. Download the road network of Porto (See `./preprocessing/road_network_download.py`). The downloaded road network can be visualized via <https://kepler.gl/>, as shown in below:
    <div align=center>
    <img src="./figs/porto_map.png" alt="Road network of Porto" width="50%" />
    </div>
@@ -90,7 +90,7 @@ To facilitate running the SE-GCL model on your own dataset, we also release the 
 
 3. Download the raw trajectory data of Porto: <https://www.kaggle.com/c/pkdd-15-predict-taxi-service-trajectory-i>
 
-4. Process the raw trajectory data named `train.csv` of Porto. This step includes: data cleaning, map matching, calculation of co-occurrence matrix and road speed labels, and dataset preparation for Travel Time Estimation task (See in `./preprocessing/trajectory_processing.py`). For your convenience, we also list some commonly-used map matching algorithms:
+4. Process the raw trajectory data named `train.csv` of Porto. This step includes: data cleaning, map matching, calculation of co-occurrence matrix and road speed labels, and dataset preparation for Travel Time Estimation task (See in `./preprocessing/trajectory_processing.py`). For your convenience, we also list some popular map matching algorithms:
 
    - Fast Map Matching (FMM): <https://fmm-wiki.github.io/>
    - ST-Matching: <https://github.com/rottenivy/ST-Matching>
@@ -104,7 +104,7 @@ To facilitate running the SE-GCL model on your own dataset, we also release the 
 
 ## 📌 FAQ & Contact
 
-- Due to  the Didi company's data pact, we cannot publish the original or other data of Chengdu.
+- Due to the Didi company's data pact, we cannot publish the original or other data of Chengdu.
 
 Any inquiries feel free to contact <csjiezhao@gmail.com>.
 
