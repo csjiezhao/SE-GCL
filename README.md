@@ -6,7 +6,7 @@
 
 ## 📚 Contents
 
-- [File Structure] (##📁 File Structure)
+- [File Structure](#-file-structure)
 - [Quick Start](##📜 Quick Start)
 - [Performance and Visualization](##💡 Performance and Visualization)
 - [Customize Your Own Dataset](##🛠️ Customize Your Own Dataset)
@@ -23,9 +23,9 @@
 │  requirements.txt
 │  train.py		# train the SE-GCL model 
 │
-├─checkpoints
-├─data
-├─embeddings
+├─checkpoints 	# a empty folder for saving model checkpoints
+├─data/Porto	# a empty folder to store data
+├─embeddings	# a empty folder to store segment embeddings
 │
 ├─preprocessing
 │      road_network_download.py
@@ -34,9 +34,9 @@
 │      visual_feature_extraction.py
 │
 └─tasks
-        road_type_classification.py
-        traffic_speed_inference.py
-        travel_time_estimation.py
+       road_type_classification.py
+       traffic_speed_inference.py
+       travel_time_estimation.py
 ```
 
 
