@@ -104,7 +104,7 @@ To facilitate running the SE-GCL model on your own dataset, we also release the 
 
 ## 📌 FAQ & Contact
 
-- Due to the Didi company's data pact, we cannot publish the original or other data of Chengdu.
+- Due to the Didi company's data pact, we cannot release the raw or processed data of Chengdu. If you want to obtain the dataset, please apply for the authorization of Didi Chuxing <https://www.didiglobal.com/>.
 
 Any inquiries feel free to contact <csjiezhao@gmail.com>.
 
