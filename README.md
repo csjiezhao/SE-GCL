@@ -2,7 +2,7 @@
 
 :triangular_flag_on_post: This is the PyTorch implementation of our paper summited to **IEEE Conference on Data Engineering (ICDE) 2024**.
 
-<img style="zoom:55%;"     src="./figs/se-gcl.png">
+<img src="./figs/se-gcl.png">
 
 ## 📚 Contents
 
@@ -19,7 +19,6 @@
 ```python
 │  config.py	# hyper-parameter setting
 │  model.py		# implementation of SE-GCL
-│  readout.py	# readout the embeddings after training
 │  requirements.txt
 │  train.py		# train the SE-GCL model 
 │
@@ -84,7 +83,7 @@ To facilitate running the SE-GCL model on your own dataset, we also release the 
 
 1. Download the road network of  the target city (See `./preprocessing/road_network_download.py`). The downloaded road network of Porto can be visualized via <https://kepler.gl/>, as shown in below:
    <div align=center>
-   <img src="./figs/porto_map.png" alt="Road network of Porto" width="40%" />
+   <img src="./figs/porto_map.png" alt="Road network of Porto" width="50%" />
    </div>
 
 2. Extract the road segment attributes (i.e., id, length, longitude and latitude) and  prepare the data label for Road Type Classification task (See `./preprocessing/road_network_processing.py`). 
