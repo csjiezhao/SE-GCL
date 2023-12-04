@@ -7,10 +7,10 @@
 ## 📚 Contents
 
 - [File Structure](#-file-structure)
-- [Quick Start](##📜 Quick Start)
-- [Performance and Visualization](##💡 Performance and Visualization)
-- [Customize Your Own Dataset](##🛠️ Customize Your Own Dataset)
-- [FAQ & Contact](##📌 FAQ & Contact)
+- [Quick Start](#-quick-start)
+- [Performance and Visualization](#-performance-and-visualization)
+- [Customize Your Own Dataset](#-customize-your-own-dataset)
+- [FAQ & Contact](#-faq-&-contact)
 
 
 
