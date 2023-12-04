@@ -24,7 +24,7 @@
 │  train.py		# train the SE-GCL model 
 │
 ├─checkpoints 	# a empty folder for saving model checkpoints
-├─data/Porto	# a empty folder to store data
+├─data/Porto	# a empty folder to place data
 ├─embeddings	# a empty folder to store segment embeddings
 │
 ├─preprocessing
