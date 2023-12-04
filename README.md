@@ -9,8 +9,8 @@
 - [File Structure](#-file-structure)
 - [Quick Start](#-quick-start)
 - [Performance and Visualization](#-performance-and-visualization)
-- [Customize Your Own Dataset](#-customize-your-own-dataset)
-- [FAQ & Contact](#-faq-&-contact)
+- [Customize Your Own Dataset](#%EF%B8%8F-customize-your-own-dataset)
+- [FAQ & Contact](#-faq--contact)
 
 
 
