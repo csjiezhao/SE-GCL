@@ -72,8 +72,8 @@ python ./tasks/travel_time_estimation.py
 ## 💡 Performance and Visualization
 
 <p float="left">
-  <img src="./figs/results.png" width="100" />
-  <img src="./figs/vis.png" width="100" /> 
+  <img src="./figs/results.png" width="75%" />
+  <img src="./figs/vis.png" width="20%" /> 
 </p>
 
 
