@@ -6,7 +6,7 @@
 
 ## 📚 Contents
 
-- [File Structure](##File Structure)
+- [File Structure] (##📁 File Structure)
 - [Quick Start](##📜 Quick Start)
 - [Performance and Visualization](##💡 Performance and Visualization)
 - [Customize Your Own Dataset](##🛠️ Customize Your Own Dataset)
