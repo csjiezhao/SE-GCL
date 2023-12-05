@@ -49,7 +49,7 @@
 
 #### Self-supervised Training
 
-> ***Note***: The trained SE-GCL and the corresponding learned embeddings are persisted to folder `./checkpoints/` and `./embeddings/`,  respectively.
+> ***Note***: The trained SE-GCL and the corresponding learned embeddings are persisted to the empty folder `./checkpoints/` and `./embeddings/`,  respectively.
 
 ```python
 python train.py
