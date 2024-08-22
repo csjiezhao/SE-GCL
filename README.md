@@ -1,6 +1,6 @@
 # SE-GCL: A Semantic-Enhanced Graph Contrastive Learning Framework for Road Network Embedding
 
-:triangular_flag_on_post: This is the PyTorch implementation of our paper summited to **IEEE Transactions on Neural Networks and Learning Systems(TNNLS)** in Feb 2024.
+:triangular_flag_on_post: This is the PyTorch implementation of our paper summited to **ACM Transactions on Knowledge Discovery from Data** in Aug 2024.
 
 <img src="./figs/se-gcl.png">
 
